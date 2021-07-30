@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2? família=Montserrat:ital,wght@1,200&display=swap');
+ * {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background: palegreen;
+    /*background: linear-gradient(112deg, #7c54cc 0%, #77dbdd 100%);*/
+    font-family: sans-serif;
+}
+  ul {
+   list-style: none;
+  }
+  
+/*para não ficar marcado a parte do home, serviços, pacotes...*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+   width: 80px;
+   height: 30px;
+   border-radius: 15px;
+
+}
+/*input do slider */
+.slider--controls input{
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(9, 1, 17);
+    color: burlywood;
+    cursor: pointer;
+}
+
+header{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   
+ 
+ }
+ .slider{
+     flex: 1;
+     overflow: hidden;
+ 
+ }
+ .slider--width {
+     height: 86%;
+     display: flex;
+     transition: all ease 0.3s;
+ 
+ }
+ .slider--item {
+    width: 100vw;
+    height: inherit;
+     background-position: center;
+     background-size: cover;
+ }
+ 
+ .slider--controls{
+     position: absolute;
+     z-index: 99;
+     width: 100vw;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .slider--control {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     overflow: hidden;
+     cursor: pointer;
+ }
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+    background: palegreen;
+    color: rgb(2, 1, 12);
+}
+
+ nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+
+
+/*serviços*/
+
+.servicos{
+    padding: 15px;
+}
+.servicos .servicos-title{
+    text-align: center;
+    margin: 35px 0;
+
+}
+
+.servicos .servicos-cards {
+    /*margin-top: 25px;*/
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+
+
+}
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    transition: all 1s;
+
+}
+.servicos .card svg:hover {
+    stroke: darkslateblue;
+    transform: scale(1.1);
+}
+.servicos .card h3 {
+   font-weight: bold;
+   font-size: 1.7rem;
+}
+.servicos .card p {
+   color: rgb(2, 1, 12);
+   font-size: 1.0rem;
+   text-align: center;
+}
+.servicos .card .card-content {
+    height: 250px;
+    text-align: center;
+}
+.servicos button {
+    width: 80px;
+    height: 35px;
+    border-radius: 15px;
+    background: rgb(32, 199, 127);
+    color: rgb(0, 0, 4);
+}
+
+.conteud{
+    width: 1055px;
+    height: 600px;
+    margin: 40px;
+    border-radius: 15px;
+    background: linear-gradient(112deg, #7c54cc 0%, #77dbdd 100%);
+}
+
+.conteud h1{
+    text-align: center;
+}

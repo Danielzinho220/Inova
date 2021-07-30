@@ -1,0 +1,66 @@
+
+body{
+    background: linear-gradient(112deg, #7c54cc 0%, #77dbdd 100%);
+}
+/* Cadastro */
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+main h1 {
+    color: #8880fe;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main form label {
+display: flex;
+flex-direction: column;
+
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+
+}
+main form input {
+    background: #161923;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgb(58, 12, 77);
+    font-size: 1rem;
+    border: 1px solid #040b18;
+    border-radius: 8px;
+}
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #2c2958;
+    color: rgb(155, 13, 119);
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+main form input[type="submit"]:hover {
+    background: #5952d4;
+
+}

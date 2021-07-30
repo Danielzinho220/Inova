@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    
+}
+ul {
+    list-style: none;
+}
+/*para não ficar marcado a parte do home, serviços, pacotes...*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+
+    nav p {
+        font-weight: bold;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+
+        nav ul li {
+            margin: 0 15px;
+            color: aliceblue;
+        }
+
+#produto {
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    
+    
+}
+
+#carrinho {
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 1%;
+    display: block;
+}
+
+.produto-single {
+    width: 29.3%;
+    margin-right: 1.1%;
+    border: 1px solid #ccc;
+    margin-top: 25px;
+    border-radius: 15px;
+    
+}
+
+    .produto-single img {
+        /*max-width: 100px;*/
+        width: 115px;
+        height: 90px;
+        background-color: black;
+        border-radius: 15px;
+    }
+
+h2 {
+    background-color: darkslateblue;
+    padding: 8px 0;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.homer {
+    background: black;
+}
